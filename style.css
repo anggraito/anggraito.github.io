@@ -168,16 +168,16 @@ h3.fancy{
 .porto-list{
 	padding-top: 5%;
 }
-.porto-list li{
+.porto-list li, .web-dev li{
 	list-style: none;
 	padding: 10px;
 	background-color: rgb(246,246,246);
 	margin: 5px 0;
 }
-.porto-list li:hover{
+.porto-list li:hover , .web-dev li:hover{
 	background-color:rgba(255,184,115,0.65);
 }
-.porto-list img{
+.porto-list img, .web-dev li img{
 	max-width: 16px;
 }
 .porto-list a{
@@ -220,4 +220,32 @@ padding-top: 20px;
 	position: relative;
     width:  22px;
     height: 22px;
+}
+
+.web-dev{
+	font-family:'Roboto';
+	font-weight: 300;
+	padding: 5% 10%;
+}
+.web-dev h2{
+	color: #f8a3c6;
+	font-size: 26px;
+	font-weight: 700;
+}
+.web-dev ul{
+	margin-top: 30px;
+}
+.web-dev ul li{
+	list-style: none;
+}
+.web-dev ol{
+	padding-left: 5%;
+}
+.web-dev ol li{
+	list-style-type: upper;
+	background-color: rgb(246,246,246);
+	margin: 5px 0;
+}
+.web-dev ol li:hover{
+	background: #fff;
 }
