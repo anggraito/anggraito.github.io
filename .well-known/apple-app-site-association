@@ -4,7 +4,12 @@
        "details": [
            {
                "appID": "id.co.manyoption.MO",
-               "paths": [ "*" ]
+               "components": [
+               {
+                  "/": "/ang/*",
+                  "comment": "Matches any URL whose path starts with /ang/"
+               }
+              ]
            }
        ]
    }
