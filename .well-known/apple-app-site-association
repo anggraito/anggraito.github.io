@@ -3,13 +3,8 @@
        "apps": [],
        "details": [
            {
-               "appID": "id.co.manyoption.MO",
-               "components": [
-               {
-                  "/": "/ang/*",
-                  "comment": "Matches any URL whose path starts with /ang/"
-               }
-              ]
+               "appID": "2SX29DCH67.id.co.manyoption.MO",
+               "paths": ["product/*]
            }
        ]
    }
