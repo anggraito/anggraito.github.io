@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.manyoption",
-    "sha256_cert_fingerprints":
-    ["F4:46:06:F7:08:E0:AB:51:5D:37:5B:30:21:25:4E:88:18:BC:58:22:17:EF:2E:48:D2:58:B8:59:62:84:B2:65"]
-  }
-}]
